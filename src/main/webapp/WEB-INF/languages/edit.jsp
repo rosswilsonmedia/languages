@@ -13,7 +13,7 @@
     </head>
     <body>
        	<a href="/languages">Dashboard</a> 
-		<h1>Edit Book</h1>
+		<h1>Edit Language</h1>
 		<form:form action="/languages/${language.id}" method="post" modelAttribute="language">
 		    <input type="hidden" name="_method" value="put">
 		    <p>
